@@ -1,3 +1,5 @@
 node_modules
+_resources
+npm-debug.log
 .DS_Store
 public/build

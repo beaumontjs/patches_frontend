@@ -15,10 +15,10 @@ import AppBar from 'material-ui/AppBar';
 render((
   <MuiThemeProvider>
     <Router history={browserHistory}>
-      <AppBar
-        title="Title"
-        iconClassNameRight="muidocs-icon-navigation-expand-more"
-      />
+    <AppBar
+      title="Title"
+      iconClassNameRight="muidocs-icon-navigation-expand-more"
+    />
       <Route path="/" component={Dashboard}></Route>
       <Route path="/anotherroute" component={UserProfile}></Route>
     </Router>
